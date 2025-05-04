@@ -1,0 +1,49 @@
+# Model API configurations
+api:
+  openai:
+    api_key: "${OPENAI_API_KEY}"
+    base_url: "https://api.openai.com/v1"
+    temperature: 0.7
+    top_p: 0.9
+    max_tokens: 4096
+    presence_penalty: 0.0
+    frequency_penalty: 0.0
+    timeout: 120
+
+  deepseek:
+    api_key: "${DEEPSEEK_API_KEY}"
+    base_url: "https://api.deepseek.ai/v1"
+    temperature: 0.7
+    top_p: 0.9
+    max_tokens: 4096
+    timeout: 120
+  other:
+    api_key: "${OTHER_API_KEY}"
+    base_url: ""
+    temperature: 0.7
+    top_p: 0.9
+    max_tokens: 1024
+    presence_penalty: 0.0
+    frequency_penalty: 0.0
+    timeout: 120
+# VLLM offline inference configurations
+vllm:
+  path: "../models/"
+  inference:
+    temperature: 0.7
+    top_p: 0.9
+    top_k: 50
+    max_tokens: 4096
+    presence_penalty: 0.0
+    frequency_penalty: 0.0
+    num_beams: 1
+    repetition_penalty: 1.0
+    use_beam_search: false
+    batch_size: 4
+    gpu_memory_utilization: 0.9
+    dtype: "auto"
+    tensor_parallel_size: 4
+
+# Evaluation settings
+evaluation:
+  seed: 42
