@@ -32,7 +32,7 @@
 <body>
 
   <h1>📘 CN-SarcasmBench</h1>
-  <p>An open-source project for <strong>XXX task</strong>, providing a complete evaluation process and model download support.</p>
+  <p><strong>CN-SarcasmBench</strong> is a high-quality Chinese benchmark designed to evaluate large language models on sarcasm understanding, classification, and response generation in real-world online conversations. Based on over 1,200 Bilibili comment threads, it offers rich contextual data and multi-level tasks to reveal the performance gap between current models and human-level sarcastic comprehension. Ideal for researchers and developers aiming to improve nuanced language understanding in LLMs.</p>
 
   <h2>🔗 Links</h2>
   <p>
@@ -50,7 +50,7 @@
 cd CN-SarcasmBench</code></pre>
 
   <h3>2. Create and activate conda environment</h3>
-  <pre><code>conda create -n sarcasm python=3.9
+  <pre><code>conda create -n sarcasm python=3.8
 conda activate sarcasm</code></pre>
 
   <h3>3. Install dependencies</h3>
