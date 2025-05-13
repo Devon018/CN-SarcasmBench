@@ -172,7 +172,6 @@ conda activate sarcasm</code></pre>
   <p>Our evaluation process follows this pipeline:</p>
   <ol>
     <li><strong>Original Comment</strong> → Input text</li>
-    <li><strong>Semantic Analysis</strong> → Core NLP processing</li>
     <li><strong>Three Parallel Tasks</strong>:
       <ul>
         <li>Intent Understanding → Sentiment Analysis</li>
