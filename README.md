@@ -313,6 +313,166 @@ conda activate sarcasm</code></pre>
     </tr>
   </table>
   <p> Disregarding position bias , we simultaneously calculated the accuracy of each model based on our experimental results. The results without positional bias are as follow:</p>
+  <table>
+    <tr>
+      <th rowspan="2">Models</th>
+      <th colspan="2">Understanding</th>
+      <th colspan="2">Classification</th>
+      <th colspan="2">Responding</th>
+      <th colspan="2">Overall</th>
+    </tr>
+    <tr>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+    </tr>
+    <tr>
+      <th colspan="9">Large Language Models</th>
+    </tr>
+    <tr>
+      <td>Phi4-mini</td>
+      <td>61.79</td>
+      <td>46.04</td>
+      <td>14.62</td>
+      <td>16.26</td>
+      <td>7.71</td>
+      <td>6.68</td>
+      <td>7.71</td>
+      <td>6.68</td>
+    </tr>
+    <tr>
+      <td>InternLM3-8B</td>
+      <td>54.68</td>
+      <td>75.06</td>
+      <td>11.42</td>
+      <td>6.36</td>
+      <td>6.69</td>
+      <td>3.27</td>
+      <td>6.69</td>
+      <td>3.27</td>
+    </tr>
+    <tr>
+      <td>Llama3.1-8B</td>
+      <td>24.46</td>
+      <td>48.92</td>
+      <td>28.47</td>
+      <td>32.04</td>
+      <td>10.55</td>
+      <td>11.93</td>
+      <td>10.55</td>
+      <td>11.93</td>
+    </tr>
+    <tr>
+      <td>Phi4</td>
+      <td>89.29</td>
+      <td>85.43</td>
+      <td>25.96</td>
+      <td>31.14</td>
+      <td>27.70</td>
+      <td>27.05</td>
+      <td>27.70</td>
+      <td>27.05</td>
+    </tr>
+    <tr>
+      <td>Llama3.3-70B</td>
+      <td>26.62</td>
+      <td>28.94</td>
+      <td>23.66</td>
+      <td>14.06</td>
+      <td>11.47</td>
+      <td>8.11</td>
+      <td>11.47</td>
+      <td>8.11</td>
+    </tr>
+    <tr>
+      <td>Qwen2.5-72B</td>
+      <td>88.81</td>
+      <td>80.98</td>
+      <td>32.11</td>
+      <td>33.81</td>
+      <td>30.22</td>
+      <td>27.25</td>
+      <td>30.22</td>
+      <td>27.25</td>
+    </tr>
+    <tr>
+      <td>Deepseek-V3-0324</td>
+      <td>90.00</td>
+      <td>90.00</td>
+      <td>39.67</td>
+      <td>40.22</td>
+      <td>32.65</td>
+      <td>35.85</td>
+      <td>32.65</td>
+      <td>35.85</td>
+    </tr>
+    <tr>
+      <td>GPT-4o</td>
+      <td>70.00</td>
+      <td>62.00</td>
+      <td>35.87</td>
+      <td>38.59</td>
+      <td>20.66</td>
+      <td>17.22</td>
+      <td>20.66</td>
+      <td>17.22</td>
+    </tr>
+    <tr>
+      <th colspan="9">Large Reasoning Models</th>
+    </tr>
+    <tr>
+      <td>R1-Distill-Qwen-32B</td>
+      <td>84.27</td>
+      <td>82.18</td>
+      <td>44.23</td>
+      <td>47.67</td>
+      <td>25.00</td>
+      <td>28.38</td>
+      <td>25.00</td>
+      <td>28.38</td>
+    </tr>
+    <tr>
+      <td>Deepseek-R1</td>
+      <td>55.00</td>
+      <td>59.00</td>
+      <td>50.00</td>
+      <td>51.09</td>
+      <td>24.93</td>
+      <td>24.95</td>
+      <td>24.93</td>
+      <td>24.95</td>
+    </tr>
+    <tr>
+      <td>GPT-o1</td>
+      <td>25.00</td>
+      <td>45.00</td>
+      <td>42.11</td>
+      <td>31.58</td>
+      <td>19.12</td>
+      <td>17.28</td>
+      <td>19.12</td>
+      <td>17.28</td>
+    </tr>
+    <tr>
+      <td>Random</td>
+      <th colspan="2">6.67</th>
+      <th colspan="2">12.5</th>
+      <th colspan="2">6.67</th>
+      <th colspan="2">8.61</th>
+    </tr>
+    <tr>
+      <td>Human</td>
+      <th colspan="2">99.84</th>
+      <th colspan="2">88.72</th>
+      <th colspan="2">84.99</th>
+      <th colspan="2">91.98</th>
+    </tr>
+  </table>
   
   <h2>📫 Contact Us</h2>
   <p>If you have any questions, please submit an <a href="https://github.com/Devon018/CN-SarcasmBench/issues" target="_blank">Issue</a> or send an email to huangdihong@sjtu.edu.cn or liuyuhao@sjtu.edu.cn.</p>
