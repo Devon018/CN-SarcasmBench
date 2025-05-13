@@ -192,7 +192,7 @@ What does the last commenter express by saying 'Money well spent, really!'?
 ---
 
 ### 3. Evaluation Framework
-**Pipeline**  
+**Pipeline:**  
 1. **Original Comment** → Input text  
 2. **Three Parallel Tasks**:  
    - 🧠 Intent Understanding → Sentiment Analysis  
