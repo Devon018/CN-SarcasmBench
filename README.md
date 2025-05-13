@@ -123,30 +123,27 @@ conda activate sarcasm</code></pre>
   </table>
   <h2>🏆 Main Results</h2>
   <p>After evaluating all selected baseline models on CN-SarcasmBench. The experimental results with positional bias are as follow:</p>
-  <table>
+    <table>
     <tr>
-      <th>Models</th>
-      <th>Understanding (w/o CoT)</th>
-      <th>Understanding (CoT)</th>
-      <th>Classification (w/o CoT)</th>
-      <th>Classification (CoT)</th>
-      <th>Responding (w/o CoT)</th>
-      <th>Responding (CoT)</th>
-      <th>Overall (w/o CoT)</th>
-      <th>Overall (CoT)</th>
+      <th rowspan="2">Models</th>
+      <th colspan="2">Understanding</th>
+      <th colspan="2">Classification</th>
+      <th colspan="2">Responding</th>
+      <th colspan="2">Overall</th>
     </tr>
     <tr>
-      <td><strong>Large Language Models</strong></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+      <th>w/o CoT</th>
+      <th>CoT</th>
     </tr>
     <tr>
+      <th colspan="9">Large Language Models</th>
+    </tr>
       <td>Phi4-mini</td>
       <td>7.03</td>
       <td>3.20</td>
@@ -246,16 +243,9 @@ conda activate sarcasm</code></pre>
       <td>17.22</td>
     </tr>
     <tr>
-      <td><strong>Large Reasoning Models</strong></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th colspan="9">Large Reasoning Models</th>
     </tr>
+    <tr>
     <tr>
       <td>R1-Distill-Qwen-32B</td>
       <td>26.49</td>
@@ -290,28 +280,21 @@ conda activate sarcasm</code></pre>
       <td>17.28</td>
     </tr>
     <tr>
-      <td>Random</td>
-      <td>0.00</td>
-      <td>0.00</td>
-      <td>12.50</td>
-      <td>12.50</td>
-      <td>0.00</td>
-      <td>0.00</td>
-      <td>4.17</td>
-      <td>4.17</td>
+      <td><strong>Random</strong></td>
+      <th colspan="2">6.67</th>
+      <th colspan="2">12.5</th>
+      <th colspan="2">6.67</th>
+      <th colspan="2">8.61</th>
     </tr>
     <tr>
-      <td>Human</td>
-      <td>99.84</td>
-      <td>99.84</td>
-      <td>88.72</td>
-      <td>88.72</td>
-      <td>84.99</td>
-      <td>84.99</td>
-      <td>91.98</td>
-      <td>91.98</td>
+      <td><strong>Human</strong></td>
+      <th colspan="2">99.84</th>
+      <th colspan="2">88.72</th>
+      <th colspan="2">84.99</th>
+      <th colspan="2">91.98</th>
     </tr>
   </table>
+
   <p> Disregarding position bias , we simultaneously calculated the accuracy of each model based on our experimental results. The results without positional bias are as follow:</p>
   <table>
     <tr>
@@ -459,14 +442,14 @@ conda activate sarcasm</code></pre>
       <td>17.28</td>
     </tr>
     <tr>
-      <td>Random</td>
+      <td><strong>Random</strong></td>
       <th colspan="2">6.67</th>
       <th colspan="2">12.5</th>
       <th colspan="2">6.67</th>
       <th colspan="2">8.61</th>
     </tr>
     <tr>
-      <td>Human</td>
+      <td><strong>Human</strong></td>
       <th colspan="2">99.84</th>
       <th colspan="2">88.72</th>
       <th colspan="2">84.99</th>
