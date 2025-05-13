@@ -123,64 +123,84 @@ conda activate sarcasm</code></pre>
     </tr>
   </table>
   <p>A detailed explanation of the json format dataset called by the model during the evaluation process is as follows:</p>
-    <h2>🔍 Sarcasm Detection Evaluation Suite</h2>
-  
-  <h3>1. User Comment Thread</h3>
+  <h2>🔍 Sarcasm Detection Evaluation Suite</h2>
+
+### 1. User Comment Thread
+<div style="background:#f5f5f5; padding:12px; border-radius:8px;">
+  <div style="display:flex; align-items:center; gap:8px; margin-bottom:12px;">
+    <img src="https://img.icons8.com/color/48/000000/user-male-circle--v1.png" width="24"/> 
+    <strong>Original Post</strong>
+  </div>
   <blockquote>
-    This morning during the flash sale, all three of my devices got stuck on the loading page. I was so furious!<br><br>
-    I logged in early and waited for half an hour, the site crashed three times, and when I finally got in, it showed everything was sold out.<br><br>
-    I paid for the annual membership but ended up getting in even slower than other users. Customer service just said 'Thank you for your support and understanding.' Money well spent, really!
+    This morning during the flash sale, all three of my devices got stuck on the loading page. I was so furious!
   </blockquote>
 
-  <h3>2. Task Definitions</h3>
-  
-  <h4>Task 1: Sarcasm Understanding</h4>
-  <p><strong>Question</strong><br>
-  What does the last commenter express by saying 'Money well spent, really!'?</p>
-  
-  <p><strong>Options</strong></p>
-  <ul>
-    <li>[ ] A. Sarcasm about ineffective membership privileges</li>
-    <li>[ ] B. Dissatisfaction with service quality</li>
-    <li>[ ] C. Intent to continue membership</li>
-    <li>[ ] D. Genuine value appreciation</li>
-  </ul>
+  <div style="display:flex; align-items:center; gap:8px; margin:12px 0;">
+    <img src="https://img.icons8.com/color/48/000000/cat-profile.png" width="24"/>
+    <strong>Commenter A</strong>
+  </div>
+  <blockquote>
+    I logged in early and waited for half an hour, the site crashed three times, and when I finally got in, it showed everything was sold out.
+  </blockquote>
 
-  <h4>Task 2: Sarcasm Classification</h4>
-  <p><strong>Classification Types</strong></p>
-  <ul>
-    <li>Overstatement</li>
-    <li>Understatement</li>
-    <li>Contradiction</li>
-    <li>Factual Sarcasm</li>
-    <li>Metaphorical Sarcasm</li>
-    <li>Incongruity</li>
-    <li>Role-play Sarcasm</li>
-    <li>NULL</li>
-  </ul>
+  <div style="display:flex; align-items:center; gap:8px; margin:12px 0;">
+    <img src="https://img.icons8.com/color/48/000000/dog.png" width="24"/>
+    <strong>Commenter B</strong>（✅ Target Comment）
+  </div>
+  <blockquote style="border-left:3px solid #ff6b6b;">
+    I paid for the annual membership but ended up getting in even slower than other users. Customer service just said 'Thank you for your support and understanding.' <em>Money well spent, really!</em>
+  </blockquote>
+</div>
 
-  <h4>Task 3: Sarcasm Responding</h4>
-  <p><strong>Response Options</strong></p>
-  <ol>
-    <li>A. Membership cancellation threat</li>
-    <li>B. System limitation justification</li>
-    <li>C. Empathetic agreement</li>
-    <li>D. Systemic criticism</li>
-  </ol>
+---
 
-  <h3>3. Evaluation Framework</h3>
-  <p>Our evaluation process follows this pipeline:</p>
-  <ol>
-    <li><strong>Original Comment</strong> → Input text</li>
-    <li><strong>Three Parallel Tasks</strong>:
-      <ul>
-        <li>Intent Understanding → Sentiment Analysis</li>
-        <li>Classification Type → Sarcasm Pattern Recognition</li>
-        <li>Response Generation → Contextual Appropriateness Evaluation</li>
-      </ul>
-    </li>
-  </ol>
-  
+### 2. Task Definitions
+
+#### Task 1: Sarcasm Understanding
+**Question**  
+What does the last commenter express by saying 'Money well spent, really!'?
+
+**Options**  
+- [✅] A. Sarcasm about ineffective membership privileges  
+- [❌] B. Dissatisfaction with service quality  
+- [❌] C. Intent to continue membership  
+- [❌] D. Genuine value appreciation  
+
+---
+
+#### Task 2: Sarcasm Classification
+**Classification Types**  
+- [❌] Overstatement  
+- [❌] Understatement  
+- [✅] Contradiction  
+- [❌] Factual Sarcasm  
+- [❌] Metaphorical Sarcasm  
+- [❌] Incongruity  
+- [❌] Role-play Sarcasm  
+- [❌] NULL  
+
+---
+
+#### Task 3: Sarcasm Responding
+**Response Options**  
+1. [✅] A. Membership cancellation threat  
+   *"I've been fooled by these 'exclusive' offers too many times. When my membership expires, I'm definitely not renewing it!"*  
+2. [❌] B. System limitation justification  
+   *"Actually, it's not easy for the platform either. Everyone wants to buy, so the system is bound to lag."*  
+3. [❌] C. Empathetic agreement  
+   *"I feel exactly the same! Last time I paid for membership and couldn't get anything. Complete waste of money!"*  
+4. [❌] D. Systemic criticism  
+   *"These companies are just exploiting FOMO to sell useless memberships. We need to stop falling for it!"*  
+
+---
+
+### 3. Evaluation Framework
+**Pipeline**  
+1. **Original Comment** → Input text  
+2. **Three Parallel Tasks**:  
+   - 🧠 Intent Understanding → Sentiment Analysis  
+   - 🏷️ Classification Type → Sarcasm Pattern Recognition  
+   - 💬 Response Generation → Contextual Appropriateness Evaluation  
   <h2>🏆 Main Results</h2>
   <p>After evaluating all selected baseline models on CN-SarcasmBench. The experimental results with positional bias are as follow:</p>
     <table>
