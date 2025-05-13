@@ -161,10 +161,11 @@ conda activate sarcasm</code></pre>
 What does the last commenter express by saying 'Money well spent, really!'?
 
 **Options**  
-- [✅] A. Sarcasm about ineffective membership privileges  
-- [❌] B. Dissatisfaction with service quality  
-- [❌] C. Intent to continue membership  
-- [❌] D. Genuine value appreciation  
+- [✅] A. The commenter is expressing sarcasm about the so-called membership privileges that failed to deliver.
+- [✅] B. The commenter is showing dissatisfaction with the platform's service quality and reliability.
+- [❌] C. The commenter is indicating an intention to continue supporting the platform's membership service in the future.
+- [❌] D. The commenter genuinely believes that the platform's membership price offers good value for money.
+
 
 ---
 
@@ -183,14 +184,10 @@ What does the last commenter express by saying 'Money well spent, really!'?
 
 #### Task 3: Sarcasm Responding
 **Response Options**  
-- [✅] A. Membership cancellation threat  
-   *"I've been fooled by these 'exclusive' offers too many times. When my membership expires, I'm definitely not renewing it!"*  
-- [❌] B. System limitation justification  
-   *"Actually, it's not easy for the platform either. Everyone wants to buy, so the system is bound to lag."*
-- [❌] C. Empathetic agreement  
-   *"I feel exactly the same! Last time I paid for membership and couldn't get anything. Complete waste of money!"*  
-- [❌] D. Systemic criticism  
-   *"These companies are just exploiting FOMO to sell useless memberships. We need to stop falling for it!"*  
+- [✅] A.*"I've been fooled by these 'exclusive' offers too many times. When my membership expires, I'm definitely not renewing it!"*  
+- [❌] B.*"Actually, it's not easy for the platform either. Everyone wants to buy, so the system is bound to lag."*
+- [✅] C.*"I feel exactly the same! Last time I paid for membership and couldn't get anything. Complete waste of money!"*  
+- [✅] D.*"These companies are just exploiting FOMO to sell useless memberships. We need to stop falling for it!"*  
 
 ---
 
