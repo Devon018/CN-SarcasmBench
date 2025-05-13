@@ -10,7 +10,6 @@
 
   <h2>🔗 Links</h2>
   <p>
-    🌐 <a href="https://github.com/Devon018/CN-SarcasmBench" target="_blank">Project Website</a> | 
     📦 Dataset: <a href="https://huggingface.co/datasets/Devon018/CN-SarcasmBench" target="_blank">Hugging Face</a>
   </p>
 
