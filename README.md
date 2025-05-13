@@ -95,6 +95,7 @@ conda activate sarcasm</code></pre>
   </ul>
   
   <h2>📋 Model Metadata</h2>
+  <p>The basic imformation of our model metadata is as follow:</p>
   <table>
     <tr>
       <th>Attribute</th>
@@ -121,6 +122,8 @@ conda activate sarcasm</code></pre>
       <td>NLP/Sarcasm Detection</td>
     </tr>
   </table>
+  <p>A detailed explanation of the json format dataset called by the model during the evaluation process is as follows:</p>
+  
   <h2>🏆 Main Results</h2>
   <p>After evaluating all selected baseline models on CN-SarcasmBench. The experimental results with positional bias are as follow:</p>
     <table>
