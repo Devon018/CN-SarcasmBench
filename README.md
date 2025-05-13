@@ -102,7 +102,7 @@ conda activate sarcasm</code></pre>
     </tr>
     <tr>
       <td>Release Date</td>
-      <td>YYYY-MM-DD</td>
+      <td>2025-05-13</td>
     </tr>
     <tr>
       <td>Version</td>
