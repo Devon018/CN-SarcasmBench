@@ -123,7 +123,89 @@ conda activate sarcasm</code></pre>
     </tr>
   </table>
   <p>A detailed explanation of the json format dataset called by the model during the evaluation process is as follows:</p>
-  <h2>🔍 Sarcasm Detection Evaluation Suite</h2>
+
+### 💬 Full comment dialogue
+1. **Comment1**  
+   大部分人没有意识到，设计也是一种功能性，抛开审美不谈，字体和排版，配色本身就是为了让人更清楚看车牌才做的。  
+
+2. **Comment2**  
+   现在蓝底白字我觉得在辨认信息方面挺好，车牌本来就应该容易分辨出重要信息来，反而黑白的并不容易辨认  
+
+3. **Comment3** (回复 @孟弃疾)  
+   up视频提到了很多细节上面的东西 比如切线啊，字体啊等等，配色只是其中一小部分，设计师的工作其实就是和这些细枝末节的东西打交道。而且其实蓝底车牌说来说去还是能够接受的，新能源的车牌真的是一坨。  
+
+4. **Comment4** (回复 @宇间思梦)  
+   我觉得绿牌除了配色，其他都是比蓝牌设计得好看很多  
+   网传的渐变新蓝牌配色就比这个绿牌好很多，相比底下一个蓝杠我还是更喜欢那个渐变蓝的[捂眼]  
+
+5. **Comment5** (回复 @皇上吉祥电话)  
+   抛开审美的意思是说，就算不说审美，设计的第一要义也是服务于功能性，审美反而是次要的，懂了么？  
+
+6. **Comment6** (回复 @靠墙的钴-60)  
+   视频中对于渐变的吐槽其实已经很克制了，不得不说新能源汽车的车牌直接会把汽车的价值下几个档次，因为渐变色在设计中是不能作为突出元素出现的，一旦突出就会有一种工业塑料的廉价感  
+
+7. **Comment7** (回复 @孟弃疾)  
+   黑白配色高级是高级，但是太素了看起来像灵车[笑哭]  
+
+8. **Comment8**  
+   车牌设计，功能当然大于审美，但设计师的责任，不就是在二者间做最优解吗？抛开审美只谈功能，那可能不需要设计师，而现在中国车牌的设计，显然审美是不过关的  
+
+9. **Comment9** (回复 @友友友干)  
+   我说的抛开审美，说的是设计的第一要务就是服务于功能，其次才追求审美，所谓打着审美幌子其实无非就是做出来的东西不好看还应让人欣赏那根本就不叫设计。  
+
+10. **Comment10** (回复 @宇间思梦)  
+    不知道你要表达的是不是只是功能高于审美这个事实，是的话我也赞同。但我表达的是设计这个车牌的人可能满足了功能，但审美差得多，好的设计应该是能平衡二者  
+
+11. **Comment11** (回复 @孟弃疾)  
+    黑白不容易辨认？你认真的？  
+
+12. **Comment12** (回复 @宇间思梦)  
+    那个渐变色其实是线条密度渐变，比纯色渐变好看  
+
+13. **Comment13** (回复 @孟弃疾)  
+    我寻思其他国家的车牌都不够中国的好分辨是吧，那在国外生活可太难了吧  
+
+---
+
+### 🎯 Core assessment tasks
+
+#### ❓ Sarcasm Understanding
+**评论者在最后一条评论中提到「那在国外生活可太难了吧」意在表达什么？**
+
+<details>
+<summary>📌 Options and Answers (click to expand)</summary>
+
+- [✅] **A**. 通过夸张国外车牌难以分辨的问题，讽刺对中国车牌设计盲目自信的观点  
+- [❌] **B**. 表明国外车牌在实际使用中确实存在严重的辨认困难  
+- [✅] **C**. 批评某些人只关注功能性而忽视审美平衡的设计评判标准  
+- [❌] **D**. 赞扬中国车牌在功能性和辨认度方面的优越性  
+
+</details>
+
+---
+#### ❓ Sarcasm Classification
+<span style="background: #ffe8e8; padding: 4px 8px; border-radius: 4px;">  
+🔖 "INCONGRUITY" (荒谬讽刺)  
+</span>  
+通过逻辑矛盾制造讽刺效果
+
+---
+#### ❓ Sarcasm Responding
+<details>
+<summary>📌 Options and Answers (click to expand)</summary>
+
+- [✅] **A**. *"哈哈，国外的车牌估计得配个放大镜才能看清楚吧？👀"* 
+- [❌] **B**. *"是啊，中国车牌设计得这么好，功能性和审美都兼顾了，其他国家真的需要学习一下。👍"* 
+- [✅] **C**. *"看来国外的司机每天都在猜自己的车牌号码是什么，真辛苦啊！😄"* 
+- [❌] **D**. *"我觉得国外车牌其实也挺清晰的，只是风格不同而已，没必要贬低别人吧。🤔"* 
+
+</details>
+
+---
+<p>The above is a piece of data from CN-SarcasmBench.json, for details see <a href="https://github.com/Devon018/CN-SarcasmBench/blob/main/datasets/CN-SarcasmBench.json" target="_blank">CN-SarcasmBench.json</a></p>
+
+ 
+<h2>🔍 Sarcasm Detection Evaluation Suite</h2>
 
 ### 1. User Comment Thread
 <div style="background:#f5f5f5; padding:12px; border-radius:8px;">
