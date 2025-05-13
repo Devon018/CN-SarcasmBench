@@ -123,6 +123,64 @@ conda activate sarcasm</code></pre>
     </tr>
   </table>
   <p>A detailed explanation of the json format dataset called by the model during the evaluation process is as follows:</p>
+    <h2>🔍 Sarcasm Detection Evaluation Suite</h2>
+  
+  <h3>1. User Comment Thread</h3>
+  <blockquote>
+    This morning during the flash sale, all three of my devices got stuck on the loading page. I was so furious!<br><br>
+    I logged in early and waited for half an hour, the site crashed three times, and when I finally got in, it showed everything was sold out.<br><br>
+    I paid for the annual membership but ended up getting in even slower than other users. Customer service just said 'Thank you for your support and understanding.' Money well spent, really!
+  </blockquote>
+
+  <h3>2. Task Definitions</h3>
+  
+  <h4>Task 1: Sarcasm Understanding</h4>
+  <p><strong>Question</strong><br>
+  What does the last commenter express by saying 'Money well spent, really!'?</p>
+  
+  <p><strong>Options</strong></p>
+  <ul>
+    <li>[ ] A. Sarcasm about ineffective membership privileges</li>
+    <li>[ ] B. Dissatisfaction with service quality</li>
+    <li>[ ] C. Intent to continue membership</li>
+    <li>[ ] D. Genuine value appreciation</li>
+  </ul>
+
+  <h4>Task 2: Sarcasm Classification</h4>
+  <p><strong>Classification Types</strong></p>
+  <ul>
+    <li>Overstatement</li>
+    <li>Understatement</li>
+    <li>Contradiction</li>
+    <li>Factual Sarcasm</li>
+    <li>Metaphorical Sarcasm</li>
+    <li>Incongruity</li>
+    <li>Role-play Sarcasm</li>
+    <li>NULL</li>
+  </ul>
+
+  <h4>Task 3: Sarcasm Responding</h4>
+  <p><strong>Response Options</strong></p>
+  <ol>
+    <li>A. Membership cancellation threat</li>
+    <li>B. System limitation justification</li>
+    <li>C. Empathetic agreement</li>
+    <li>D. Systemic criticism</li>
+  </ol>
+
+  <h3>3. Evaluation Framework</h3>
+  <p>Our evaluation process follows this pipeline:</p>
+  <ol>
+    <li><strong>Original Comment</strong> → Input text</li>
+    <li><strong>Semantic Analysis</strong> → Core NLP processing</li>
+    <li><strong>Three Parallel Tasks</strong>:
+      <ul>
+        <li>Intent Understanding → Sentiment Analysis</li>
+        <li>Classification Type → Sarcasm Pattern Recognition</li>
+        <li>Response Generation → Contextual Appropriateness Evaluation</li>
+      </ul>
+    </li>
+  </ol>
   
   <h2>🏆 Main Results</h2>
   <p>After evaluating all selected baseline models on CN-SarcasmBench. The experimental results with positional bias are as follow:</p>
