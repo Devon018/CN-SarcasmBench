@@ -10,10 +10,8 @@
 
   <h2>🔗 Links</h2>
   <p>
-    📄 <a href="https://arxiv.org/abs/xxxx.xxxxx" target="_blank">Paper</a> | 
-    🌐 <a href="https://yourprojectsite.com" target="_blank">Project Website</a> | 
-    📦 Dataset: <a href="https://huggingface.co/datasets/Devon018/CN-SarcasmBench" target="_blank">Hugging Face</a>, 
-    <a href="https://modelscope.cn/datasets/Devon018/CN-SarcasmBench" target="_blank">ModelScope</a>
+    🌐 <a href="https://github.com/Devon018/CN-SarcasmBench" target="_blank">Project Website</a> | 
+    📦 Dataset: <a href="https://huggingface.co/datasets/Devon018/CN-SarcasmBench" target="_blank">Hugging Face</a>
   </p>
 
   <h2>🚀 Quick Start</h2>
@@ -91,7 +89,6 @@ conda activate sarcasm</code></pre>
   <p>Models can be downloaded from the following platforms:</p>
   <ul>
     <li><a href="https://huggingface.co/model" target="_blank">Hugging Face Model Page</a></li>
-    <li><a href="https://modelscope.cn/models/" target="_blank">ModelScope Model Page</a></li>
   </ul>
   
   <h2>📋 Model Metadata</h2>
@@ -111,7 +108,7 @@ conda activate sarcasm</code></pre>
     </tr>
     <tr>
       <td>License</td>
-      <td>MIT</td>
+      <td>CC-BY-NC 4.0</td>
     </tr>
     <tr>
       <td>Languages</td>
@@ -131,38 +128,39 @@ conda activate sarcasm</code></pre>
 2. **Comment2**  
    现在蓝底白字我觉得在辨认信息方面挺好，车牌本来就应该容易分辨出重要信息来，反而黑白的并不容易辨认  
 
-3. **Comment3** (回复 @孟弃疾)  
+3. **Comment3**  
    up视频提到了很多细节上面的东西 比如切线啊，字体啊等等，配色只是其中一小部分，设计师的工作其实就是和这些细枝末节的东西打交道。而且其实蓝底车牌说来说去还是能够接受的，新能源的车牌真的是一坨。  
 
-4. **Comment4** (回复 @宇间思梦)  
+4. **Comment4** 
    我觉得绿牌除了配色，其他都是比蓝牌设计得好看很多  
    网传的渐变新蓝牌配色就比这个绿牌好很多，相比底下一个蓝杠我还是更喜欢那个渐变蓝的[捂眼]  
 
-5. **Comment5** (回复 @皇上吉祥电话)  
+5. **Comment5**  
    抛开审美的意思是说，就算不说审美，设计的第一要义也是服务于功能性，审美反而是次要的，懂了么？  
 
-6. **Comment6** (回复 @靠墙的钴-60)  
+6. **Comment6** 
    视频中对于渐变的吐槽其实已经很克制了，不得不说新能源汽车的车牌直接会把汽车的价值下几个档次，因为渐变色在设计中是不能作为突出元素出现的，一旦突出就会有一种工业塑料的廉价感  
 
-7. **Comment7** (回复 @孟弃疾)  
+7. **Comment7**  
    黑白配色高级是高级，但是太素了看起来像灵车[笑哭]  
 
 8. **Comment8**  
    车牌设计，功能当然大于审美，但设计师的责任，不就是在二者间做最优解吗？抛开审美只谈功能，那可能不需要设计师，而现在中国车牌的设计，显然审美是不过关的  
 
-9. **Comment9** (回复 @友友友干)  
-   我说的抛开审美，说的是设计的第一要务就是服务于功能，其次才追求审美，所谓打着审美幌子其实无非就是做出来的东西不好看还应让人欣赏那根本就不叫设计。  
+9. **Comment9** 
+    我说的抛开审美，说的是设计的第一要务就是服务于功能，其次才追求审美，所谓打着审美幌子其实无非就是做出来的东西不好看还应让人欣赏那根 
+    本就不叫设计。  
 
-10. **Comment10** (回复 @宇间思梦)  
-    不知道你要表达的是不是只是功能高于审美这个事实，是的话我也赞同。但我表达的是设计这个车牌的人可能满足了功能，但审美差得多，好的设计应该是能平衡二者  
+10. **Comment10** 
+     不知道你要表达的是不是只是功能高于审美这个事实，是的话我也赞同。但我表达的是设计这个车牌的人可能满足了功能，但审美差得多，好的设计    应该是能平衡二者  
 
-11. **Comment11** (回复 @孟弃疾)  
+11. **Comment11**  
     黑白不容易辨认？你认真的？  
 
-12. **Comment12** (回复 @宇间思梦)  
+12. **Comment12**  
     那个渐变色其实是线条密度渐变，比纯色渐变好看  
 
-13. **Comment13** (回复 @孟弃疾)  
+13. **Comment13**  
     我寻思其他国家的车牌都不够中国的好分辨是吧，那在国外生活可太难了吧  
 
 ---
@@ -202,7 +200,7 @@ conda activate sarcasm</code></pre>
 </details>
 
 ---
-<p>The above is a piece of data from CN-SarcasmBench.json, for details see <a href="https://github.com/Devon018/CN-SarcasmBench/blob/main/datasets/CN-SarcasmBench.json" target="_blank">CN-SarcasmBench.json</a></p>
+<p>The above is a piece of data from CN-SarcasmBench.json, for details see <a href="https://github.com/Devon018/CN-SarcasmBench/blob/main/datasets/CN-SarcasmBench.json" target="_blank">CN-SarcasmBench.json</a>.</p>
 
  
 <h2>🔍 Sarcasm Detection Evaluation Suite</h2>
@@ -281,7 +279,169 @@ What does the last commenter express by saying 'Money well spent, really!'?
    - 🏷️ Classification Type → Sarcasm Pattern Recognition  
    - 💬 Response Generation → Contextual Appropriateness Evaluation  
   <h2>🏆 Main Results</h2>
-  <p>After evaluating all selected baseline models on CN-SarcasmBench. The experimental results with positional bias are as follow:</p>
+  <p>After  removing positional bias and evaluating all selected baseline models on CN-SarcasmBench. The experimental results without positional bias are as follow:</p>
+  <table>
+    <tr>
+      <th rowspan="2">Models</th>
+      <th colspan="2">Understanding</th>
+      <th colspan="2">Classification</th>
+      <th colspan="2">Responding</th>
+      <th colspan="2">Overall</th>
+    </tr>
+    <tr>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+      <th>w/o CoT</th>
+      <th>CoT</th>
+    </tr>
+    <tr>
+      <th colspan="9">Large Language Models</th>
+    </tr>
+    <tr>
+      <td>Phi4-mini</td>
+      <td>61.79</td>
+      <td>46.04</td>
+      <td>14.62</td>
+      <td>16.26</td>
+      <td>7.71</td>
+      <td>6.68</td>
+      <td>7.71</td>
+      <td>6.68</td>
+    </tr>
+    <tr>
+      <td>InternLM3-8B</td>
+      <td>54.68</td>
+      <td>75.06</td>
+      <td>11.42</td>
+      <td>6.36</td>
+      <td>6.69</td>
+      <td>3.27</td>
+      <td>6.69</td>
+      <td>3.27</td>
+    </tr>
+    <tr>
+      <td>Llama3.1-8B</td>
+      <td>24.46</td>
+      <td>48.92</td>
+      <td>28.47</td>
+      <td>32.04</td>
+      <td>10.55</td>
+      <td>11.93</td>
+      <td>10.55</td>
+      <td>11.93</td>
+    </tr>
+    <tr>
+      <td>Phi4</td>
+      <td>89.29</td>
+      <td>85.43</td>
+      <td>25.96</td>
+      <td>31.14</td>
+      <td>27.70</td>
+      <td>27.05</td>
+      <td>27.70</td>
+      <td>27.05</td>
+    </tr>
+    <tr>
+      <td>Llama3.3-70B</td>
+      <td>26.62</td>
+      <td>28.94</td>
+      <td>23.66</td>
+      <td>14.06</td>
+      <td>11.47</td>
+      <td>8.11</td>
+      <td>11.47</td>
+      <td>8.11</td>
+    </tr>
+    <tr>
+      <td>Qwen2.5-72B</td>
+      <td>88.81</td>
+      <td>80.98</td>
+      <td>32.11</td>
+      <td>33.81</td>
+      <td>30.22</td>
+      <td>27.25</td>
+      <td>30.22</td>
+      <td>27.25</td>
+    </tr>
+    <tr>
+      <td>Deepseek-V3-0324</td>
+      <td>90.00</td>
+      <td>90.00</td>
+      <td>39.67</td>
+      <td>40.22</td>
+      <td>32.65</td>
+      <td>35.85</td>
+      <td>32.65</td>
+      <td>35.85</td>
+    </tr>
+    <tr>
+      <td>GPT-4o</td>
+      <td>70.00</td>
+      <td>62.00</td>
+      <td>35.87</td>
+      <td>38.59</td>
+      <td>20.66</td>
+      <td>17.22</td>
+      <td>20.66</td>
+      <td>17.22</td>
+    </tr>
+    <tr>
+      <th colspan="9">Large Reasoning Models</th>
+    </tr>
+    <tr>
+      <td>R1-Distill-Qwen-32B</td>
+      <td>84.27</td>
+      <td>82.18</td>
+      <td>44.23</td>
+      <td>47.67</td>
+      <td>25.00</td>
+      <td>28.38</td>
+      <td>25.00</td>
+      <td>28.38</td>
+    </tr>
+    <tr>
+      <td>Deepseek-R1</td>
+      <td>55.00</td>
+      <td>59.00</td>
+      <td>50.00</td>
+      <td>51.09</td>
+      <td>24.93</td>
+      <td>24.95</td>
+      <td>24.93</td>
+      <td>24.95</td>
+    </tr>
+    <tr>
+      <td>GPT-o1</td>
+      <td>25.00</td>
+      <td>45.00</td>
+      <td>42.11</td>
+      <td>31.58</td>
+      <td>19.12</td>
+      <td>17.28</td>
+      <td>19.12</td>
+      <td>17.28</td>
+    </tr>
+    <tr>
+      <td><strong>Random</strong></td>
+      <th colspan="2">6.67</th>
+      <th colspan="2">12.5</th>
+      <th colspan="2">6.67</th>
+      <th colspan="2">8.61</th>
+    </tr>
+    <tr>
+      <td><strong>Human</strong></td>
+      <th colspan="2">99.84</th>
+      <th colspan="2">88.72</th>
+      <th colspan="2">84.99</th>
+      <th colspan="2">91.98</th>
+    </tr>
+  </table>
+
+  <p> Taking the positional bias into account , we simultaneously calculate the accuracy of each model based on our experimental results. The results with positional bias are as follow:</p>
     <table>
     <tr>
       <th rowspan="2">Models</th>
@@ -454,167 +614,6 @@ What does the last commenter express by saying 'Money well spent, really!'?
     </tr>
   </table>
 
-  <p> Disregarding position bias , we simultaneously calculated the accuracy of each model based on our experimental results. The results without positional bias are as follow:</p>
-  <table>
-    <tr>
-      <th rowspan="2">Models</th>
-      <th colspan="2">Understanding</th>
-      <th colspan="2">Classification</th>
-      <th colspan="2">Responding</th>
-      <th colspan="2">Overall</th>
-    </tr>
-    <tr>
-      <th>w/o CoT</th>
-      <th>CoT</th>
-      <th>w/o CoT</th>
-      <th>CoT</th>
-      <th>w/o CoT</th>
-      <th>CoT</th>
-      <th>w/o CoT</th>
-      <th>CoT</th>
-    </tr>
-    <tr>
-      <th colspan="9">Large Language Models</th>
-    </tr>
-    <tr>
-      <td>Phi4-mini</td>
-      <td>61.79</td>
-      <td>46.04</td>
-      <td>14.62</td>
-      <td>16.26</td>
-      <td>7.71</td>
-      <td>6.68</td>
-      <td>7.71</td>
-      <td>6.68</td>
-    </tr>
-    <tr>
-      <td>InternLM3-8B</td>
-      <td>54.68</td>
-      <td>75.06</td>
-      <td>11.42</td>
-      <td>6.36</td>
-      <td>6.69</td>
-      <td>3.27</td>
-      <td>6.69</td>
-      <td>3.27</td>
-    </tr>
-    <tr>
-      <td>Llama3.1-8B</td>
-      <td>24.46</td>
-      <td>48.92</td>
-      <td>28.47</td>
-      <td>32.04</td>
-      <td>10.55</td>
-      <td>11.93</td>
-      <td>10.55</td>
-      <td>11.93</td>
-    </tr>
-    <tr>
-      <td>Phi4</td>
-      <td>89.29</td>
-      <td>85.43</td>
-      <td>25.96</td>
-      <td>31.14</td>
-      <td>27.70</td>
-      <td>27.05</td>
-      <td>27.70</td>
-      <td>27.05</td>
-    </tr>
-    <tr>
-      <td>Llama3.3-70B</td>
-      <td>26.62</td>
-      <td>28.94</td>
-      <td>23.66</td>
-      <td>14.06</td>
-      <td>11.47</td>
-      <td>8.11</td>
-      <td>11.47</td>
-      <td>8.11</td>
-    </tr>
-    <tr>
-      <td>Qwen2.5-72B</td>
-      <td>88.81</td>
-      <td>80.98</td>
-      <td>32.11</td>
-      <td>33.81</td>
-      <td>30.22</td>
-      <td>27.25</td>
-      <td>30.22</td>
-      <td>27.25</td>
-    </tr>
-    <tr>
-      <td>Deepseek-V3-0324</td>
-      <td>90.00</td>
-      <td>90.00</td>
-      <td>39.67</td>
-      <td>40.22</td>
-      <td>32.65</td>
-      <td>35.85</td>
-      <td>32.65</td>
-      <td>35.85</td>
-    </tr>
-    <tr>
-      <td>GPT-4o</td>
-      <td>70.00</td>
-      <td>62.00</td>
-      <td>35.87</td>
-      <td>38.59</td>
-      <td>20.66</td>
-      <td>17.22</td>
-      <td>20.66</td>
-      <td>17.22</td>
-    </tr>
-    <tr>
-      <th colspan="9">Large Reasoning Models</th>
-    </tr>
-    <tr>
-      <td>R1-Distill-Qwen-32B</td>
-      <td>84.27</td>
-      <td>82.18</td>
-      <td>44.23</td>
-      <td>47.67</td>
-      <td>25.00</td>
-      <td>28.38</td>
-      <td>25.00</td>
-      <td>28.38</td>
-    </tr>
-    <tr>
-      <td>Deepseek-R1</td>
-      <td>55.00</td>
-      <td>59.00</td>
-      <td>50.00</td>
-      <td>51.09</td>
-      <td>24.93</td>
-      <td>24.95</td>
-      <td>24.93</td>
-      <td>24.95</td>
-    </tr>
-    <tr>
-      <td>GPT-o1</td>
-      <td>25.00</td>
-      <td>45.00</td>
-      <td>42.11</td>
-      <td>31.58</td>
-      <td>19.12</td>
-      <td>17.28</td>
-      <td>19.12</td>
-      <td>17.28</td>
-    </tr>
-    <tr>
-      <td><strong>Random</strong></td>
-      <th colspan="2">6.67</th>
-      <th colspan="2">12.5</th>
-      <th colspan="2">6.67</th>
-      <th colspan="2">8.61</th>
-    </tr>
-    <tr>
-      <td><strong>Human</strong></td>
-      <th colspan="2">99.84</th>
-      <th colspan="2">88.72</th>
-      <th colspan="2">84.99</th>
-      <th colspan="2">91.98</th>
-    </tr>
-  </table>
   
   <h2>📫 Contact Us</h2>
   <p>If you have any questions, please submit an <a href="https://github.com/Devon018/CN-SarcasmBench/issues" target="_blank">Issue</a> or send an email to huangdihong@sjtu.edu.cn or liuyuhao@sjtu.edu.cn.</p>
