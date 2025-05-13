@@ -87,7 +87,7 @@ conda activate sarcasm</code></pre>
 </code></pre>
   <p>Models can be downloaded from the following platforms:</p>
   <ul>
-    <li><a href="https://huggingface.co/model" target="_blank">Hugging Face Model Page</a></li>
+    <li><a href="https://huggingface.co/models" target="_blank">Hugging Face Model Page</a></li>
   </ul>
   
   <h2>📋 Model Metadata</h2>
